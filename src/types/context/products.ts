@@ -9,4 +9,10 @@ export interface context {
   status: string;
   createdAt: string;
   setSearchByStatusAndDate: Dispatch<IsearchByStatusAndDate>;
+  setIsSearchById: Dispatch<SetStateAction<boolean>>,
+  isSearchById: boolean
+  clearAllFilters: boolean
+  setIsClearAllFilters: Dispatch<SetStateAction<boolean>>
+  isProductNotFound: boolean
+  setProductNotFound: Dispatch<SetStateAction<boolean>>
 }

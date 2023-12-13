@@ -20,7 +20,8 @@ const config: Config = {
         "gray-300": '#CBCFD6',
         "grey-400": '#9BA0A4',
         "blue": '#0066DF', 
-        "grey": '#6a7383'
+        "grey": '#6a7383',
+        red: '#ff4545'
       }
     },
   },

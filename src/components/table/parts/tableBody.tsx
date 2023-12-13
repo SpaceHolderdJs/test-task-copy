@@ -10,7 +10,7 @@ type Props = {
 export const TableBody: FC<Props> = memo(({ products }) => {
     return (
         <tbody>
-            {products.map(({ id, title, rating, status, createdAt }, index) => {
+            {products.map(({ id, title, status, createdAt }, index) => {
                 return (
                     <tr
                         className={`border-b border-bd-grey text-grey-200 text-sm first:border-t border-bd-grey text-sm ${

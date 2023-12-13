@@ -1,23 +1,3 @@
-export const dtoForFilteWindow = [
-    {
-        isById: true,
-        text: "Request ID",
-    },
-    {
-        isById: false,
-        text: "state",
-    },
-];
-
-export const dtoForSharedButton = [
-    {
-        text: "State",
-    },
-    {
-        text: "Request ID",
-    },
-];
-
 export const tableheaderArray = [
     {
         name: "Request ID",
@@ -32,3 +12,14 @@ export const tableheaderArray = [
         name: "Created At",
     },
 ];
+
+
+export const arrayForStateSelect = ["draft", "pending", "complete"].map(
+    (value) => ({
+        value,
+        label: `${value.slice(0, 1).toUpperCase()}${value.slice(1)}`,
+    })
+);
+
+
+export const grayColor = "#6A7383";

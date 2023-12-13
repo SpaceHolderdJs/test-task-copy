@@ -7,6 +7,6 @@ export default function Home() {
     const router = useRouter();
     useLayoutEffect(() => {
         router.push("/products");
-    }, []);
+    }, [router]);
     return <></>;
 }

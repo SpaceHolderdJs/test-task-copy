@@ -1,5 +1,6 @@
-import { Statuses } from "@/types/statuses";
 import { FC, memo } from "react";
+
+import { Statuses } from "@/types/statuses";
 import Image from "next/image";
 import draftSvg from "@/public/draft.svg";
 import completeSvg from "@/public/complete-st.svg";

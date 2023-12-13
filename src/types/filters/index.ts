@@ -8,3 +8,8 @@ export interface ICreatedAtAndStatus {
   label: string;
   value: string;
 }
+
+export interface IDtoSharedButton {
+  text: string;
+  onClickFunc: () => void;
+}
